@@ -187,13 +187,12 @@ p {
 }
 .title .header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 1%;
-  width: 50%;
+  width: 100%;
 }
 @media (max-width: 500px) {
   .title .header nav {
-    width: 90%;
     margin-top: 2%;
   }
 }
@@ -202,6 +201,8 @@ p {
   color: #23293B;
   font-family: #454A59;
   font-size: 1.5rem;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 footer {
   color: #22283B;
