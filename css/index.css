@@ -160,23 +160,23 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-header {
+.title {
   border: 1px solid red;
   background-color: #F6F6F6;
   display: flex;
   justify-content: center;
 }
-header .header {
+.title .header {
   border: 1px solid red;
   text-align: center;
   width: 40%;
   padding: 1%;
 }
-header .header h1 {
+.title .header h1 {
   font-size: 4rem;
   border: 1px solid red;
 }
-header .header nav {
+.title .header nav {
   border: 1px solid red;
   display: flex;
   justify-content: space-around;
