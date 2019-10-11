@@ -34,15 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website is a fixed website but also using media queries to accommodate  for smaller devices at specific hard coded pixel breakpoints. Responsive  websites combine features of fixed, adaptive, and fluid websites together into one seamless experience. Media queries are used with responsive units, so as the viewport shrinks it adapts to maintain the layout.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is when you design the layout with the smallest screen in mind first. Desktop first means you are design the layout and styles with the desktop in mind first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Font-size: 62.5% makes it so that the root font size is 62.5 percent of the default font size. Rem is relative to that. So 1 rem in this case is equal to 10px. It easy to adjust the font sizes on your page from there. Also contributing to the accessibility of your page.
+
 4. How would you describe preprocessing to someone new to CSS?
+
+Preprocessing is basically a toolbox for programmers. By adding a package to our original programming language we can make our styling more efficient and fool proof.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
+My favorite concept thus far has been how we can nest the media queries inside each individual class or element. The one that gives me the most trouble is the mix-ins and variables. I understand the concept and see the logic and advantage of them, but in some ways it makes the code seem more confusing and messy.
 
 ## Project Set Up
 
