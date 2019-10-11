@@ -1,1 +1,52 @@
 // Navigation code here
+
+.title {
+    border: 1px double @nav-border;
+    background-color:@wild-sand;
+    display: flex;
+    justify-content:center;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    .header {
+        // border: 1px solid red;//
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 65%;
+        padding: 1%;
+
+        @media @phone {
+           width: 100%;
+           padding: 2%;
+        }
+
+        h1 {
+            font-size: 4rem;
+            // border: 1px solid red;
+        }
+
+        nav {
+            // border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            margin-top: 1%;
+            width: 100%;
+
+            @media @phone {
+                // width: 90%;
+                margin-top: 2%;
+            }
+            
+            a {
+                text-decoration: none;
+                color: @header-font-color;
+                font-family: @nav-font;
+                font-size: 1.5rem;
+                padding-right: 15px;
+                padding-left: 15px
+            }//this closes a//
+        }//this closes nav//
+    }//this closes .header class
+}//this closes .title class//
